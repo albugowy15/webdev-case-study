@@ -2,7 +2,10 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className="my-4 p-4 flex flex-col md:flex-row justify-center gap-8 md:gap-2">
+    <div
+      id="education"
+      className="my-4 p-4 flex flex-col md:flex-row justify-center gap-8 md:gap-2"
+    >
       <div className="flex-1">
         <h2 className="font-bold text-3xl py-1 mb-5 w-fit border-b-4 border-orange-400 mx-auto">
           Education

@@ -5,7 +5,7 @@ import { SiCplusplus, SiJavascript } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div className="mx-auto p-4">
+    <div id="skills" className="mx-auto p-4">
       <h2 className="font-bold text-4xl text-center my-5">My Skills</h2>
       <p className="my-4 text-center">
         I'm not a perfect person who can do everything, but at least I have the

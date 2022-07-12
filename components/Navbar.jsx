@@ -15,22 +15,42 @@ const Navbar = () => {
         {/* Navbar on large screen */}
         <ul className="hidden sm:flex items-center justify-between gap-2">
           <li>
-            <a href="#biodata">Biodata</a>
+            <a
+              className="hover:text-orange-500 transition duration-500"
+              href="#biodata"
+            >
+              Biodata
+            </a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a
+              className="hover:text-orange-500 transition duration-500"
+              href="#skills"
+            >
+              Skills
+            </a>
           </li>
           <li>
-            <a href="#education">Education</a>
+            <a
+              className="hover:text-orange-500 transition duration-500"
+              href="#education"
+            >
+              Education
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a
+              className="hover:text-orange-500 transition duration-500"
+              href="#contact"
+            >
+              Contact
+            </a>
           </li>
         </ul>
         {/* End Here*/}
 
         {/* Navbar on small screen / mobile device */}
-        <div className="block sm:hidden cursor-pointer">
+        <div className="block sm:hidden cursor-pointer hover:transition hover:scale-125">
           <FaBars onClick={() => setNav(!nav)} />
         </div>
         {/* End here */}
@@ -49,16 +69,40 @@ const Navbar = () => {
             <h1 className="font-bold text-2xl ">Bughowi</h1>
             <button
               onClick={() => setNav(!nav)}
-              className="p-4 rounded-full bg-slate-900 shadow-lg"
+              className="p-4 rounded-full bg-slate-900 shadow-lg hover:transition hover:scale-110 hover:shadow-lg hover:duration-300"
             >
               <IoClose />
             </button>
           </div>
           <div className="flex flex-col items-start justify-start gap-5 my-4 text-lg">
-            <a href="#biodata">Biodata</a>
-            <a href="#skills">Skills</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
+            <a
+              className="hover:text-orange-500 transition duration-500"
+              href="#biodata"
+              onClick={() => setNav(!nav)}
+            >
+              Biodata
+            </a>
+            <a
+              className="hover:text-orange-500 transition duration-500"
+              href="#skills"
+              onClick={() => setNav(!nav)}
+            >
+              Skills
+            </a>
+            <a
+              className="hover:text-orange-500 transition duration-500"
+              href="#education"
+              onClick={() => setNav(!nav)}
+            >
+              Education
+            </a>
+            <a
+              className="hover:text-orange-500 transition duration-500"
+              href="#contact"
+              onClick={() => setNav(!nav)}
+            >
+              Contact
+            </a>
           </div>
         </div>
       </div>
