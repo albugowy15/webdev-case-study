@@ -24,7 +24,13 @@ const Biodata = () => {
           objectives.
         </p>
         <button className="py-2 px-2 bg-orange-600 text-bold rounded-md transition hover:bg-orange-400 duration-500">
-          Download CV
+          <a
+            href="https://drive.google.com/file/d/1jIYfyi-mU_dlObUgAwTLGGWJqNee28tf/view?usp=sharing"
+            target={"_blank"}
+            rel="noreferrer noopener"
+          >
+            Download CV
+          </a>
         </button>
       </div>
     </div>
