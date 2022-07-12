@@ -1,6 +1,7 @@
 import Biodata from "../components/Biodata";
 import Contact from "../components/Contact";
 import Education from "../components/Education";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Skills from "../components/Skills";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <Skills />
       <Education />
       <Contact />
+      <Footer />
     </div>
   );
 }
