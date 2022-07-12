@@ -2,7 +2,7 @@
 
 For this submission, I build a homepage using Next.JS and Tailwind CSS. I create 6 base components, that is Navbar, Biodata, Skills, Education, Contact, and Footer. For styling, Tailwind CSS helps me a lot. I can easily make componenenst to be responsive and adapt in every viewport. I also give them a simple animation just to make it more live and interactive.
 
-You can check what it's looks like from here
+You can check what it's looks like from here http://webdev-case-study.vercel.app/
 
 ## Clone this Repo
 
